@@ -1,0 +1,100 @@
+body { font-family: arial; font-size: 14px; }
+
+table, td, th {
+    vertical-align:top;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+  
+}
+
+.tabsLinks {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buttonTable, .buttonTable td, .buttonTable th{
+    border: none
+}
+
+#weeklyGridView {
+  width: 90%;
+}
+#weeklyGridView table {
+  width: 100%;
+}
+
+.textarea {
+    width: 50%;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 3em;
+
+}
+
+.linkButton {
+    display: block;
+    width: 6em;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.big {
+    font-size: 40px;
+}
+
+.titleImage {
+    width: 650px;
+    height: 80px;
+}
+
+.button {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #91a8b5;
+    padding: 4px 15px 4px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.button:hover {
+    background: #4a86ab;
+   /* background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);*/
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.exerciseTable {
+    margin: 10px;
+    margin-left: 20px;
+
+}
+
+table .button {
+
+}
+
+.ui-dialog .ui-dialog-content.ui-dialog-spinner{
+    background: url("http://static2.icbin.com/library/images/ajax-loader.gif") no-repeat scroll 5px 15px transparent;
+    padding: 30px 0 0px 70px;
+    border: 2px solid #DDDDDD;
+    font-weight: 900;
+    line-height: 1em;
+    font-size: 1.1em;
+    color: #737373;
+}
